@@ -1,0 +1,71 @@
+body {
+  /*border: 2px solid black;*/
+  text-align: center;
+  background: #F1FAEE;
+  margin: 0;
+ }
+
+#title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/fort.jpg);
+  background-size: cover;
+  padding: 100px;
+  margin-bottom: 0;
+  color: #F1FAEE;
+}
+
+#col {
+  background: #457B9D;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+
+#colo {
+  padding: 5px 7px;
+  background: #1D3557;
+  border-radius: 5px;
+}
+
+.sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+img {
+  width: 100px;
+}
+
+.solo {
+  color: #1D3557;
+  margin: 0;
+  background: #98fb98;
+  border: 1px solid white;
+  margin-bottom: 100px;
+}
+
+.guide {
+  text-align: center;
+  color: #1D3557;
+  background: #A8DADC;
+}
+
+.parent {
+  width: 400px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: 5px solid #457B9D;
+  border-radius: 4px;
+}
+
+.me {
+  border-radius: 3px;
+}
